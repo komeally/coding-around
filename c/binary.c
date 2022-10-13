@@ -4,7 +4,7 @@ int decimalToBinary(int decimalNumber) {
     int quotient = decimalNumber;
     int remainder;
 
-    // Create a string or char object to hold data that will be concarentated
+    // Create a string or char object to hold data that will be concatentated
 
     while (quotient > 0)
     {
