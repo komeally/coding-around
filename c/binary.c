@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int binaryToDecimal(int binaryNumber) {
-    int quotient = binaryNumber;
+int decimalToBinary(int decimalNumber) {
+    int quotient = decimalNumber;
     int remainder;
 
     // Create a string or char object to hold data that will be concarentated
