@@ -4,17 +4,19 @@ int decimalToBinary(int decimalNumber) {
     int quotient = decimalNumber;
     int remainder;
 
-    // Create a string or char object to hold data that will be concatentated
+    char binary[256];
 
+    int i = 0;
     while (quotient > 0)
     {
         remainder = quotient % 2;
         quotient = quotient / 2;
-        
 
-        // convert remainder to char/string
-        // concat remainder to char/string object defined outside of loop
+        char remChar = (char)remainder;
+        binary[i] = remChar;
+        i++;
     }
+    
     
     // convert concatenated object back to int
     // return int
